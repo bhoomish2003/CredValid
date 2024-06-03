@@ -1,0 +1,103 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CredValid",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CredValid",
+        "printedName": "CredValid",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isValidEmail",
+            "printedName": "isValidEmail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CredValidAAV02isB5EmailySbSSFZ",
+            "mangledName": "$s9CredValidAAV02isB5EmailySbSSFZ",
+            "moduleName": "CredValid",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CredValidAAV8sayHelloyyFZ",
+            "mangledName": "$s9CredValidAAV8sayHelloyyFZ",
+            "moduleName": "CredValid",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CredValid",
+                "printedName": "CredValid.CredValid",
+                "usr": "s:9CredValidAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9CredValidAAVABycfc",
+            "mangledName": "$s9CredValidAAVABycfc",
+            "moduleName": "CredValid",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9CredValidAAV",
+        "mangledName": "$s9CredValidAAV",
+        "moduleName": "CredValid",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
